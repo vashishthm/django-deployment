@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+{% extends 'basic_app/base.html'%}
+   {% block body_block %}
+     <h1>welcome to index</h1>
+     <h2>index page extended base</h2>
+     <h1>{{ number|add:'909' }}</h1>
+     <h1>{{ text|cut:'World' }}</h1>
+     <!-- <h1>{{ number|add:'909' }}</h1>
+     <h1>{{ text|upper }}</h1> -->
+   {% endblock%}
